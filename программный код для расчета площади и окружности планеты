@@ -1,0 +1,17 @@
+import math
+
+def calculate_square_and_circumference(radius):
+    # Calculate the square of the planet
+    square = math.pi * radius ** 2
+    
+    # Calculate the circumference of the planet
+    circumference = 2 * math.pi * radius
+    
+    return square, circumference
+
+# Example usage
+planet_radius = 6371  # Radius of the Earth in kilometers
+square, circumference = calculate_square_and_circumference(planet_radius)
+
+print("The square of the planet is:", square, "square kilometers.")
+print("The circumference of the planet is:", circumference, "kilometers.")
