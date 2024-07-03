@@ -1,5 +1,3 @@
-import math
-
 def calculate_square_and_circumference(radius):
     # Calculate the square of the planet
     square = math.pi * radius ** 2
